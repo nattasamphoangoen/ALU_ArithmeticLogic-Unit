@@ -1,0 +1,10 @@
+[Inputs]
+M
+=Ari[3:0]=
+=LO[3:0]=
+[Outputs]
+=F[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MODE
+

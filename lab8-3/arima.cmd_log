@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/lab8-3/arima.xst" -ofn "D:/lab8-3/arima.syr" 
+vhdtdtfi -lib work D:/lab8-3/arima.v -lang verilog -prj lab8-3 -o arima.spl -module arima -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl arima.spl D:/lab8-3/arima.sym 

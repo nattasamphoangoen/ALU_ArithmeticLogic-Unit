@@ -1,0 +1,251 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: A.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "A.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "A"
+Output Format                      : NGC
+Target Device                      : XC9500XL CPLDs
+
+---- Source Options
+Top Module Name                    : A
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "MODE.v" in library work
+Compiling verilog file "logoc.v" in library work
+Module <MODE> compiled
+Compiling verilog file "arima.v" in library work
+Module <logoc> compiled
+Compiling verilog file "A.vf" in library work
+Module <arima> compiled
+Module <A> compiled
+No errors in compilation
+Analysis of file <"A.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <A> in library <work>.
+
+Analyzing hierarchy for module <arima> in library <work>.
+
+Analyzing hierarchy for module <logoc> in library <work>.
+
+Analyzing hierarchy for module <MODE> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <A>.
+Module <A> is correct for synthesis.
+ 
+Analyzing module <arima> in library <work>.
+Module <arima> is correct for synthesis.
+ 
+Analyzing module <logoc> in library <work>.
+Module <logoc> is correct for synthesis.
+ 
+Analyzing module <MODE> in library <work>.
+Module <MODE> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <arima>.
+    Related source file is "arima.v".
+    Found 5-bit adder for signal <tem$addsub0001>.
+    Found 4-bit adder carry in/out for signal <tem$addsub0003> created at line 12.
+    Found 4-bit adder carry out for signal <tem$addsub0004> created at line 18.
+    Found 5-bit subtractor for signal <tem$share0001>.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+Unit <arima> synthesized.
+
+
+Synthesizing Unit <logoc>.
+    Related source file is "logoc.v".
+    Found 4-bit xor2 for signal <old_tem_1$xor0000> created at line 19.
+Unit <logoc> synthesized.
+
+
+Synthesizing Unit <MODE>.
+    Related source file is "MODE.v".
+Unit <MODE> synthesized.
+
+
+Synthesizing Unit <A>.
+    Related source file is "A.vf".
+Unit <A> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 4-bit adder carry in/out                              : 1
+ 4-bit adder carry out                                 : 1
+ 5-bit adder                                           : 1
+ 5-bit subtractor                                      : 1
+# Xors                                                 : 1
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 4-bit adder carry in/out                              : 1
+ 4-bit adder carry out                                 : 1
+ 5-bit adder                                           : 1
+ 5-bit subtractor                                      : 1
+# Xors                                                 : 1
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <A> ...
+
+Optimizing unit <MODE> ...
+
+Optimizing unit <logoc> ...
+
+Optimizing unit <arima> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : A.ngr
+Top Level Output File Name         : A
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500XL CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 207
+#      AND2                        : 78
+#      AND3                        : 4
+#      AND4                        : 1
+#      INV                         : 56
+#      OR2                         : 44
+#      OR3                         : 1
+#      XOR2                        : 23
+# IO Buffers                       : 18
+#      IBUF                        : 12
+#      OBUF                        : 6
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.75 secs
+ 
+--> 
+
+Total memory usage is 263376 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

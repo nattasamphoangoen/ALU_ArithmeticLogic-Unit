@@ -1,0 +1,63 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : A.vf
+// /___/   /\     Timestamp : 06/03/2018 23:53:14
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500xl -verilog D:/lab8-3/A.vf -w D:/lab8-3/A.sch
+//Design Name: A
+//Device: xc9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module A(A, 
+         B, 
+         Ci, 
+         M, 
+         Si, 
+         So, 
+         Co, 
+         F, 
+         Z);
+
+    input [3:0] A;
+    input [3:0] B;
+    input Ci;
+    input M;
+    input Si;
+    input So;
+   output Co;
+   output [3:0] F;
+   output Z;
+   
+   wire [3:0] XLXN_1;
+   wire [3:0] XLXN_2;
+   
+   arima  XLXI_1 (.A(A[3:0]), 
+                 .B(B[3:0]), 
+                 .Ci(Ci), 
+                 .Si(Si), 
+                 .So(So), 
+                 .Co(Co), 
+                 .F(XLXN_1[3:0]));
+   logoc  XLXI_2 (.A(A[3:0]), 
+                 .B(B[3:0]), 
+                 .Si(Si), 
+                 .So(So), 
+                 .F(XLXN_2[3:0]), 
+                 .Z(Z));
+   MODE  XLXI_3 (.Ari(XLXN_1[3:0]), 
+                .LO(XLXN_2[3:0]), 
+                .M(M), 
+                .F(F[3:0]));
+endmodule

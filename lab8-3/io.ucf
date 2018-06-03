@@ -1,0 +1,23 @@
+NET "Ci" LOC = P1 ;
+
+NET "S1" LOC = P2 ;
+NET "S0" LOC = P3 ;
+NET "M" LOC = P4 ;
+
+NET "A<3>" LOC = P6 ;
+NET "A<2>" LOC = P7 ;
+NET "A<1>" LOC = P8 ;
+NET "A<0>" LOC = P9 ;
+
+NET "B<3>" LOC = P24 ;
+NET "B<2>" LOC = P25 ;
+NET "B<1>" LOC = P26 ;
+NET "B<0>" LOC = P27 ;
+
+NET "Co" LOC = P11 ;
+NET "Z" LOC = P12 ;
+
+NET "F<3>" LOC = P35 ; 
+NET "F<2>" LOC = P36 ;
+NET "F<1>" LOC = P37 ;
+NET "F<0>" LOC = P38 ;

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/lab8-3/MODE.v -lang verilog -prj lab8-3 -o MODE.spl -module MODE -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl MODE.spl D:/lab8-3/MODE.sym 
