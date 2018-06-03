@@ -1,0 +1,46 @@
+Pin Freeze File:  version P.20131013
+
+9572XL44PC XC9572XL-7-PC44
+A<0> S:PIN34
+A<1> S:PIN37
+A<2> S:PIN39
+A<3> S:PIN3
+B<0> S:PIN40
+B<1> S:PIN27
+B<2> S:PIN24
+B<3> S:PIN33
+Ci S:PIN43
+M S:PIN20
+Si S:PIN44
+So S:PIN2
+Co S:PIN4
+F<0> S:PIN38
+F<1> S:PIN35
+F<2> S:PIN26
+F<3> S:PIN12
+Z S:PIN1
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 XLXI_1/Madd_tem_addsub0003_Mxor_Result<2>__xor0000/XLXI_1/Madd_tem_addsub0003_Mxor_Result<2>__xor0000_D Z_OBUF EXP6_ EXP7_
+		 EXP8_ XLXI_1/tem_mux0000<4>/XLXI_1/tem_mux0000<4>_D2 EXP9_ Co_OBUF
+		 EXP10_ $OpTx$XLXI_1/tem_mux0000<2>/XLXI_1/tem_mux0000<2>_D2_INV$967 EXP11_ EXP12_
+		 $OpTx$XLXI_1/Msub_tem_share0001__or0001/XLXI_1/Msub_tem_share0001__or0001_D2_INV$965 $OpTx$FX_DC$14 EXP13_ XLXI_1/Madd_tem_addsub0001__and0002/XLXI_1/Madd_tem_addsub0001__and0002_D2
+		 EXP14_ XLXI_1/Madd_tem_addsub0003_Mxor_Result<1>__xor0000/XLXI_1/Madd_tem_addsub0003_Mxor_Result<1>__xor0000_D
+PARTITION FB2_1 EXP15_ F_1_OBUF EXP16_ EXP17_
+		
+PARTITION FB2_7 EXP18_ F_0_OBUF EXP19_ EXP20_
+		 XLXI_1/tem_mux0000<3>/XLXI_1/tem_mux0000<3>_D2 EXP21_ EXP22_
+PARTITION FB2_18 EXP23_
+PARTITION FB3_3 EXP24_ EXP25_ F_3_OBUF EXP26_
+		 EXP27_
+
+PARTITION FB4_1 XLXI_1/Msub_tem_share0001_Mxor_Result<2>__xor0000/XLXI_1/Msub_tem_share0001_Mxor_Result<2>__xor0000_D
+PARTITION FB4_3 EXP28_ EXP29_ F_2_OBUF EXP30_
+		 EXP31_
+PARTITION FB4_11 EXP32_ XLXI_1/Madd_tem_addsub0003__or0002/XLXI_1/Madd_tem_addsub0003__or0002_D2 EXP33_ $OpTx$XLXI_1/Msub_tem_share0001__or0002/XLXI_1/Msub_tem_share0001__or0002_D2_INV$966
+		 EXP34_ XLXI_1/Madd_tem_addsub0003__or0001/XLXI_1/Madd_tem_addsub0003__or0001_D2 EXP35_ XLXI_1/Madd_tem_addsub0001__and0000/XLXI_1/Madd_tem_addsub0001__and0000_D2
+		
+

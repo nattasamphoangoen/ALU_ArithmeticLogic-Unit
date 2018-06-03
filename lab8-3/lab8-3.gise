@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab8-3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="A.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="A.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="A.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="A.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="A.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="A.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="A.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="A.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="A.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="A.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="A.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="A.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="A.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="A.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="A.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="A.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="A.vf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="A.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="A.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="A_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="A_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="A_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="A_pad.csv"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="A_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="MODE.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="MODE.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="arima.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="arima.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="arima.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="arima.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="arima.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="arima.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="arima.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="arima_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="arima_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="logoc.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="logoc.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1528042938" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1528042937">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1528044795" xil_pn:in_ck="78866573" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6694586006258004440" xil_pn:start_ts="1528044792">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1528044832" xil_pn:in_ck="-2928508132970764262" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-5110171384330854745" xil_pn:start_ts="1528044820">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A.jhd"/>
+      <outfile xil_pn:name="A.lso"/>
+      <outfile xil_pn:name="A.ngc"/>
+      <outfile xil_pn:name="A.ngr"/>
+      <outfile xil_pn:name="A.prj"/>
+      <outfile xil_pn:name="A.stx"/>
+      <outfile xil_pn:name="A.syr"/>
+      <outfile xil_pn:name="A.xst"/>
+      <outfile xil_pn:name="A_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="arima.prj"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1528044832" xil_pn:in_ck="4242637380" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3429029341187" xil_pn:start_ts="1528044832">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1528044844" xil_pn:in_ck="101846789070278475" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="-7786321750504246885" xil_pn:start_ts="1528044832">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A.bld"/>
+      <outfile xil_pn:name="A.ngd"/>
+      <outfile xil_pn:name="A_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1528044882" xil_pn:in_ck="78861256" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="1349309792820627669" xil_pn:start_ts="1528044844">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A.gyd"/>
+      <outfile xil_pn:name="A.mfd"/>
+      <outfile xil_pn:name="A.nga"/>
+      <outfile xil_pn:name="A.pad"/>
+      <outfile xil_pn:name="A.pnx"/>
+      <outfile xil_pn:name="A.rpt"/>
+      <outfile xil_pn:name="A.vm6"/>
+      <outfile xil_pn:name="A.xml"/>
+      <outfile xil_pn:name="A_build.xml"/>
+      <outfile xil_pn:name="A_html"/>
+      <outfile xil_pn:name="A_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1528044887" xil_pn:in_ck="78870120" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1528044882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="A.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1528044882" xil_pn:in_ck="78870120" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1528044877">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

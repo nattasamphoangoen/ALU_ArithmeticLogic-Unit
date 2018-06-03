@@ -1,0 +1,4 @@
+verilog work "MODE.v"
+verilog work "logoc.v"
+verilog work "arima.v"
+verilog work "A.vf"

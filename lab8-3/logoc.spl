@@ -1,0 +1,12 @@
+[Inputs]
+Si
+So
+=A[3:0]=
+=B[3:0]=
+[Outputs]
+Z
+=F[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel logoc
+
